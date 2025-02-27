@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    border-right-color: inherit;
+
+}
+body{
+    font-family: "Josefin Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+    margin: 0;
+    padding: 0;
+    /* text-align: center; */
+    
+}
+h1{
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-style: normal;
+    -webkit-text-fill-color: black;
+
+    
+
+}
+h2,h4,h5,h6{
+    font-family: "Playfair Display", serif;
+  font-weight: 1000;
+  font-style: normal;
+  /* text-align: center; */
+}
+h3{
+    font-family: "Playfair Display", serif;
+    font-weight: 1000;
+    font-style: normal;
+    text-align: center;
+}
+
+
+.wrapper{
+    background: rgb(249,255,253); 
+    background: radial-gradient(circle, rgba(249,255,253,0.1190817790530847) 0%, rgba(45,117,203,1) 100%);
+    padding: 5% 10%;
+
+}
+h1 span{
+font-size: 4rem;
+display: block;
+line-height: 1;
+
+}
+nav{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+nav ul{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:-webkit-any-link{
+    cursor: pointer;
+    text-decoration: underline;
+}
+nav ul li{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border: solid 1px blue;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+}
+nav ul li:hover{
+    background-color: darkblue;
+    color: white;
+
+}
+li{
+    unicode-bidi: isolate;
+}
+nav ul li a{
+    padding: 2rem;
+}
+nav ul li a:hover{
+    color: white;
+}
+ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+#gallery img{
+    width: 100%;
+    height: 100%;
+}
+
+#gallery figure{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+}
